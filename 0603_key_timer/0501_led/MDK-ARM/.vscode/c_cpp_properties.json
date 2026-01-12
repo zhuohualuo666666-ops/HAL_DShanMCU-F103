@@ -3,17 +3,17 @@
         {
             "name": "0501_led",
             "includePath": [
-                "e:\\weidongshan_hal\\0603_key_timer\\0501_led\\Core\\Inc",
-                "e:\\weidongshan_hal\\0603_key_timer\\0501_led\\Drivers\\STM32F1xx_HAL_Driver\\Inc",
-                "e:\\weidongshan_hal\\0603_key_timer\\0501_led\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy",
-                "e:\\weidongshan_hal\\0603_key_timer\\0501_led\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include",
-                "e:\\weidongshan_hal\\0603_key_timer\\0501_led\\Drivers\\CMSIS\\Include",
+                "e:\\GitHub_Local\\HAL_DShanMCU-F103\\0603_key_timer\\0501_led\\Core\\Inc",
+                "e:\\GitHub_Local\\HAL_DShanMCU-F103\\0603_key_timer\\0501_led\\Drivers\\STM32F1xx_HAL_Driver\\Inc",
+                "e:\\GitHub_Local\\HAL_DShanMCU-F103\\0603_key_timer\\0501_led\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy",
+                "e:\\GitHub_Local\\HAL_DShanMCU-F103\\0603_key_timer\\0501_led\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include",
+                "e:\\GitHub_Local\\HAL_DShanMCU-F103\\0603_key_timer\\0501_led\\Drivers\\CMSIS\\Include",
+                "e:\\GitHub_Local\\HAL_DShanMCU-F103\\0603_key_timer\\0501_led\\Drivers\\DshanMCU-F103",
                 "E:\\keil5\\ARM\\ARMCC\\include",
                 "E:\\keil5\\ARM\\ARMCC\\include\\rw",
-                "e:\\weidongshan_hal\\0603_key_timer\\0501_led\\MDK-ARM",
-                "e:\\weidongshan_hal\\0603_key_timer\\0501_led\\Core\\Src",
-                "e:\\weidongshan_hal\\0603_key_timer\\0501_led\\Drivers\\STM32F1xx_HAL_Driver\\Src",
-                "e:\\weidongshan_hal\\0603_key_timer\\0501_led\\Drivers\\DshanMCU-F103"
+                "e:\\GitHub_Local\\HAL_DShanMCU-F103\\0603_key_timer\\0501_led\\MDK-ARM",
+                "e:\\GitHub_Local\\HAL_DShanMCU-F103\\0603_key_timer\\0501_led\\Core\\Src",
+                "e:\\GitHub_Local\\HAL_DShanMCU-F103\\0603_key_timer\\0501_led\\Drivers\\STM32F1xx_HAL_Driver\\Src"
             ],
             "defines": [
                 "USE_HAL_DRIVER",
