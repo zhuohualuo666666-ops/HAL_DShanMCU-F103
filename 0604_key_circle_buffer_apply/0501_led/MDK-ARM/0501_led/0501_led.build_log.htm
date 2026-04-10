@@ -1,0 +1,101 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: A Tom, HP Inc., LIC=CZLZX-H5G1B-GKTBG-VTXRZ-C6LJA-Q9QDR
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  E:\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+E:\GitHub_Local\HAL_DShanMCU-F103\0604_key_circle_buffer_apply\0501_led\MDK-ARM\0501_led.uvprojx
+Project File Date:  01/13/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'E:\keil5\ARM\ARMCC\Bin'
+Build target '0501_led'
+assembling startup_stm32f103xb.s...
+compiling stm32f1xx_hal_msp.c...
+compiling stm32f1xx_it.c...
+compiling main.c...
+compiling gpio.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling i2c.c...
+compiling stm32f1xx_hal_i2c.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_exti.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling circle_buffer.c...
+compiling driver_oled.c...
+..\Drivers\DshanMCU-F103\driver_oled.c(757): warning:  #223-D: function "memset" declared implicitly
+      memset(oledBuffer, 0, sizeof(oledBuffer));
+..\Drivers\DshanMCU-F103\driver_oled.c(137): warning:  #177-D: function "OLED_WriteData"  was declared but never referenced
+  static int OLED_WriteData(uint8_t data)
+..\Drivers\DshanMCU-F103\driver_oled.c(185): warning:  #177-D: function "OLED_H_Scroll"  was declared but never referenced
+  static void OLED_H_Scroll(H_SCROLL_DIR dir, uint8_t start, uint8_t fr_time, uint8_t end)
+..\Drivers\DshanMCU-F103\driver_oled.c(209): warning:  #177-D: function "OLED_HV_Scroll"  was declared but never referenced
+  static void OLED_HV_Scroll(HV_SCROLL_DIR dir, uint8_t start, uint8_t fr_time, uint8_t end, uint8_t offset)
+..\Drivers\DshanMCU-F103\driver_oled.c(229): warning:  #177-D: function "OLED_SetVScrollArea"  was declared but never referenced
+  static void OLED_SetVScrollArea(uint8_t area, uint8_t row_num)
+..\Drivers\DshanMCU-F103\driver_oled.c(278): warning:  #177-D: function "OLED_SetColAddr_HV"  was declared but never referenced
+  static void OLED_SetColAddr_HV(uint8_t start, uint8_t end)
+..\Drivers\DshanMCU-F103\driver_oled.c(295): warning:  #177-D: function "OLED_SetPageAddr_HV"  was declared but never referenced
+  static void OLED_SetPageAddr_HV(uint8_t start, uint8_t end)
+..\Drivers\DshanMCU-F103\driver_oled.c(401): warning:  #177-D: function "OLED_SetPreChargePeriod"  was declared but never referenced
+  static void OLED_SetPreChargePeriod(uint8_t phase1, uint8_t phase2)
+..\Drivers\DshanMCU-F103\driver_oled.c(415): warning:  #177-D: function "OLED_SetVcomhLevel"  was declared but never referenced
+  static void OLED_SetVcomhLevel(VCOMH_LEVEL level)
+..\Drivers\DshanMCU-F103\driver_oled.c: 9 warnings, 0 errors
+linking...
+Program Size: Code=5988 RO-data=2360 RW-data=40 ZI-data=1832  
+FromELF: creating hex file...
+"0501_led\0501_led.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.0.pack
+                Keil.STM32F1xx_DFP.2.4.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_0501_led
+  E:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  E:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Build Time Elapsed:  00:00:08
+</pre>
+</body>
+</html>
